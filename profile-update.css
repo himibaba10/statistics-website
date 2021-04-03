@@ -1,0 +1,25 @@
+#inputImage {
+    display: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.border-right{
+    border-right: 1px solid rgb(222, 226, 230);
+}
+
+
+@media (max-width: 900px){
+    .border-right {
+       border: none !important; 
+    }
+}
