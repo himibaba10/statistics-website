@@ -22,11 +22,15 @@ body{
     outline: none;
 }
 
+.input-width{
+    width: 400px;
+}
+
 @media (max-width: 950px){
     .filter{
-        position: absolute;
-        top: 60px;
-        right: 0;
+        position: relative;
+        top: 0;
+        text-align: center;
     }
 
     .filter input{
