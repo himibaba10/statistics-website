@@ -19,10 +19,12 @@
         position: absolute;
         top: 60px;
         right: 0;
+        z-index: -1;
     }
 
     .filter input{
         padding: 1px 5px;
         width: 125px;
+        z-index: -1;
     }
 }
