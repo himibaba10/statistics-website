@@ -19,6 +19,10 @@ body{
     padding: 5px 15px;
 }
 
+.filter input:focus{
+    outline: none;
+}
+
 @media (max-width: 950px){
     .filter{
         position: absolute;
