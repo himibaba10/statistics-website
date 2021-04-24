@@ -34,7 +34,11 @@ body{
     }
 
     .filter input{
-        padding: 1px 5px;
-        width: 125px;
+        padding: 3px 14px;
+    width: 175px;
+    }
+
+    .input-width{
+        width: 350px;
     }
 }
