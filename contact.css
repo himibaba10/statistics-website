@@ -109,5 +109,7 @@ input[type="text"]:focus{
     }
     .contact-form form{
         width: 330px;
+        height: 386px;
+        margin-bottom: 35px;
     }
 }
