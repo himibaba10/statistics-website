@@ -94,7 +94,7 @@ input[type="text"]:focus{
 
 @media (max-width: 950px){
     body{
-        padding:0;
+        min-height: 130vh;
     }
     .contact-container{
         flex-direction: column;
