@@ -63,7 +63,7 @@ body{
 
 .contact-form form{
     height: 420px;
-    max-width: 505px;
+    width: 430px;
     background: #fff;
     padding: 15px;
     border-radius: 15px;
@@ -106,5 +106,8 @@ input[type="text"]:focus{
     .contact-container{
         flex-direction: column;
         padding-top: 200px;
+    }
+    .contact-form form{
+        width: 330px;
     }
 }
