@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.content{
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.content::after{
+    position: absolute;
+    content: "";
+    background: url("../img/article-1.jpg");
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.content-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img{
+    height: 355px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Article CSS */
+.home-articles{
+    position: relative;
+    /* background-color: red; */
+}
+
+.home-article{
+    display: flex;
+    padding: 25px;
+    position: relative;
+}
+
+#year-box{
+    position: absolute;
+    width: 120px;
+    height: 137px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    top: 91px;
+    right: 23px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 0px 15px;
+}
+
+.home-article-content h3{
+    padding-right: 20%;
+}
+
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-article-img img{
+    width: 220px;
+}
+
+.footer{
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px){
+    
+    .content-left{
+        width: 100%;
+    }
+    .content-right{
+        display: none;
+        width: 0%;
+    }
+    .home-article{
+        flex-direction: column;
+        
+    }
+    .home-article-content{
+        align-self: auto;
+        padding: 1px 0;
+    }
+    #year-box{
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 91px;
+        height: auto;
+    }
+}
