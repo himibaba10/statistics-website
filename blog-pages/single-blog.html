@@ -5,159 +5,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/utils.css">
-    <link rel="stylesheet" href="css/single-blog.css">
-    <title>My Blog</title>
+    <link rel="stylesheet" href="single-blog.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="js/all.min.js">
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary my-0 py-0">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dept. Of Statistics</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex justify-content-end w-100 mb-2 mb-lg-0 py-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <form class="d-flex" action="/search.html">
-                        <input class="form-control me-2" type="search" placeholder="Search Article" name="query">
-                        <button class="btn btn-danger" type="submit">Search</button>
-                    </form>
-                </ul>
+    <section class="single-blog-section container mt-1">
+        <h2>Undo your last git mistake with ugit</h2>
+        <div class="blog-content-body-tags">
+            <a href="#">#showdev</a>
+            <a href="#">#git</a>
+            <a href="#">#github</a>
+            <a href="#">#productivity</a>
+        </div>
+        <div class="user-info">
+            <a href="#">
+                <img src="img/user-img.jpg" alt="">
+                <span>Ferdous Ahmed</span>
+            </a><br>
+            <small>may 2</small>
+            <span><small>・2 min read</small></span>
+        </div>
+        <div class="single-blog-description">
+            So I have been working on this little tool called ugit (and was finally able to release a stable version),
+            the goal is to make it easier for beginner to intermediate git users to undo their last (accidental) git
+            command. Because we are not perfect and commit mistakes.
+
+            “Oh wait I deleted the auth-jwt branch without merging!! fuck”
+
+            Opens browser
+
+            “How to restore deleted branch”
+
+            Wastes 5 minutes reading the thread,
+        </div>
+        <div class="blog-content-bottom">
+            <div class="blog-content-bottom-icon">
+                <i class="fas fa-heart"></i> <span class="heart-count">0</span>
+            </div>
+            <div class="blog-content-bottom-save">
+                <button class="btn btn-outline-secondary">Save</button>
             </div>
         </div>
-    </nav>
-
-    <div class="post-img">
-        <img src="img/article-1.jpg" alt="">
-    </div>
-    <!-- Content here -->
-    <div class="blog-page-content max-width-1 m-auto my-5">
-        <h1 class="text-center">Title Here</h1>
-        <div class="blogger-info">
-            <h4 class="author-name">
-                Author Name: Here
-            </h4>
-            <div class="social">
-                <img src="img/facebook-logo.svg" alt="fb">
-                <img src="img/twitter.svg" alt="">
-            </div>
+    </section>
+    <section class="read-next-section container">
+        <h3 class="mb-4">Read Next</h3>
+        <div class="read-next-user">
+            <a href="#" class="d-flex align-items-center">
+                <img src="img/user-img.jpg" alt="">
+                <div class="read-next-user-info ms-2">
+                    <h4>Stack Data Structure Using Javascript </h4>
+                    <small>Nikhil Bobade</small> - <small class="date">Apr 30</small>
+                </div>
+            </a>
         </div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae assumenda recusandae sapiente provident eaque
-            omnis molestiae ducimus placeat doloremque, aspernatur veniam consequatur esse, unde dolore. Voluptatum
-            maxime doloribus tempora iste dolor delectus minus fuga, cupiditate tempore, minima officia amet provident
-            qui accusamus quos blanditiis non nemo dicta. Laudantium magni quod rerum deleniti cupiditate consequatur,
-            tempora eaque officia? Necessitatibus illum voluptatibus debitis quas corrupti facere sed labore magnam
-            tempore suscipit est numquam, molestiae praesentium dicta nostrum neque voluptas enim vel perspiciatis ea
-            quasi distinctio? Eveniet deleniti nisi suscipit aliquam beatae, facere asperiores dolorem necessitatibus
-            error corrupti iusto, expedita voluptates atque mollitia totam voluptatibus doloribus cumque eligendi.
-            Pariatur magni porro vel corporis veniam veritatis rerum possimus ad asperiores error, dignissimos at illo
-            dicta laboriosam, sit magnam maiores! Distinctio vitae rem iusto magnam delectus non, placeat aut sint
-            optio, provident architecto magni quibusdam voluptates officiis dolore recusandae, cum corporis velit
-            reprehenderit. Corporis voluptas ab explicabo consectetur beatae corrupti fuga. Dignissimos harum id autem
-            vel illo nisi reiciendis porro cum odio neque repudiandae, quae ipsa natus perspiciatis eveniet. Tempora et,
-            reprehenderit veritatis provident earum quaerat ipsam quas quo sequi corporis possimus eligendi sint minus.
-            Cupiditate voluptatibus, eum in reprehenderit voluptas officia ipsum aperiam iure! Consequatur sed quae
-            corporis totam aliquam voluptatibus ipsam hic sunt cum excepturi nam sint dolore dolorem animi
-            necessitatibus omnis fugit, rerum rem consequuntur incidunt inventore facere culpa nobis! Provident iure
-            maiores aut obcaecati sit eveniet, repudiandae nemo, recusandae vitae, voluptatem dignissimos ad quae
-            expedita minus enim perspiciatis nostrum sed? Officia doloremque adipisci beatae facere praesentium, nam
-            voluptatem qui dicta quos dolorum voluptatibus quod corporis. Iusto adipisci rerum totam ipsa suscipit iure
-            ipsam! Mollitia quia iste sint in illo, architecto dicta voluptas? Ex ut dolore nisi error, dolorum
-            assumenda ducimus voluptas voluptates repellendus, qui officia modi consequuntur id quos harum nesciunt
-            culpa neque cum, similique temporibus accusamus aliquid reiciendis sapiente natus! Qui nam, harum
-            perspiciatis quidem, voluptatem quasi sunt, quod error facilis esse minus. Unde dignissimos soluta quidem
-            quam ipsa, iure placeat? Voluptatibus quasi laborum velit provident dicta officia accusantium ullam a vero
-            possimus quidem aut, id dignissimos odit at eligendi. Architecto recusandae alias non earum quae delectus
-            enim quis reprehenderit nostrum dolorum vel nulla sequi corporis ab molestiae harum animi iure,
-            exercitationem at, accusantium tempore aliquam consequatur quidem? Tempore dolores officia impedit, quaerat
-            porro voluptatum nam voluptatem perspiciatis alias nostrum non. Facilis quibusdam perspiciatis praesentium
-            aperiam laudantium, culpa nobis eius explicabo, voluptatibus quisquam, voluptas corporis. Similique eum
-            eius, cumque mollitia, voluptatibus libero hic qui animi aliquid nostrum aut, molestias ab laudantium.
-            Tempora dolor minus facere debitis eligendi quis, culpa obcaecati ducimus quia aliquid quisquam, adipisci
-            deleniti velit molestiae quasi repellat doloribus! Libero sunt ipsum nostrum commodi repellat deserunt qui
-            obcaecati delectus assumenda aut impedit praesentium consectetur saepe repellendus, voluptatum, nesciunt
-            architecto temporibus quod? Ipsa blanditiis aliquid ipsum quos quam labore magnam assumenda delectus totam
-            beatae doloribus sequi fugiat sit eveniet, sint quisquam officia laboriosam quae tempore dignissimos
-            reprehenderit illum, vitae rem! In voluptates deserunt corporis iusto excepturi, beatae soluta inventore?
-        </p>
-    </div>
-    <div class="max-width-1 m-auto">
-        <hr>
-    </div>
-    <div class="home-articles max-width-1 m-auto">
-        <h2>People who read this also read</h2>
-        <div class="row">
-            <div class="home-article col-md-4">
-                <div class="home-article-img">
-                    <img src="img/article-1.jpg" alt="">
+        <div class="read-next-user">
+            <a href="#" class="d-flex align-items-center">
+                <img src="img/user-img.jpg" alt="">
+                <div class="read-next-user-info ms-2">
+                    <h4>Stack Data Structure Using Javascript </h4>
+                    <small>Nikhil Bobade</small> - <small class="date">Apr 30</small>
                 </div>
-                <div class="home-article-content">
-                    <a href="/single-blog.html">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                    </a>
-                    <div>Author Name:</div>
-                    <span>7 January</span>
-                </div>
-            </div>
-            <div class="home-article  col-md-4">
-                <div class="home-article-img">
-                    <img src="img/article-1.jpg" alt="">
-                </div>
-                <div class="home-article-content">
-                    <a href="/single-blog.html">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                    </a>
-                    <div>Author Name:</div>
-                    <span>7 January</span>
-                </div>
-            </div>
-            <div class="home-article  col-md-4">
-                <div class="home-article-img">
-                    <img src="img/article-1.jpg" alt="">
-                </div>
-                <div class="home-article-content">
-                    <a href="/single-blog.html">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                    </a>
-                    <div>Author Name:</div>
-                    <span>7 January</span>
-                </div>
-            </div>
+            </a>
         </div>
-    </div>
-    <div class="footer max-width-2 m-auto">
-        <a href="https://www.vecteezy.com/free-vector/typing">Vector credit: Vecteezy</a>
-    </div>
+        <div class="read-next-user">
+            <a href="#" class="d-flex align-items-center">
+                <img src="img/user-img.jpg" alt="">
+                <div class="read-next-user-info ms-2">
+                    <h4>Stack Data Structure Using Javascript </h4>
+                    <small>Nikhil Bobade</small> - <small class="date">Apr 30</small>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="more-from-user container">
+        <h4 class="mb-4">More From <a href="#">Ferdous Ahmed</a></h4>
+        <div class="more-from-user-info">
+            <p><a href="#" class="text-primary">Making grep searches sexier </a></p>
+            <a href="#">#linux</a>
+            <a href="#">#bash</a>
+            <a href="#">#productivity</a>
+            <a href="#">#ubuntu</a>
+        </div>
 
-
-    <!-- Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+        <div class="more-from-user-info">
+            <p><a href="#" class="text-primary">Making grep searches sexier </a></p>
+            <a href="#">#linux</a>
+            <a href="#">#bash</a>
+            <a href="#">#productivity</a>
+            <a href="#">#ubuntu</a>
+        </div>
+        
+    </section>
 </body>
 
 </html>
