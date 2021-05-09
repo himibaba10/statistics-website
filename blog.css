@@ -99,3 +99,7 @@ body{
 a{
     text-decoration: none;
 }
+
+.search-blog{
+    padding: 9px 12px;
+}
