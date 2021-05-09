@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eef0f1;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.welcome-section{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 100px 0;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.welcome-section div{
+    width: 45%;
+}
+
+.welcome-section-left{
+    text-align: center;
+}
+
+.welcome-section-left h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.welcome-section-left button{
+    border: 1px solid black;
+    padding: 6px 16px;
+    background: white;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+.welcome-section-left button:hover{
+    color: white;
+    background-color: navy;
+}
+
+.welcome-section-right{
+    overflow: hidden;
+}
+
+.welcome-section-right img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.welcome-section-right img:hover{
+    transform: scale(1.5)
+}
+
+.about{
+    text-align: center;
+    background: #3838e2;
+    color: white;
+    padding: 18px 0;
+}
+
+.about-section{
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px gray;
+    background: white;
+}
+
+.about-section-left img{
+    width: 500px;
+}
+
+.about-section-right{
+    margin-left: 10px;
+}
