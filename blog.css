@@ -103,3 +103,8 @@ a{
 .search-blog{
     padding: 9px 12px;
 }
+
+.input-group{
+    margin-right: 120px;
+    width: 300px;
+}
